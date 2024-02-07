@@ -1,0 +1,24 @@
+.btn__wrap {
+    &__btn, &__screen{
+        width: 200px;
+        margin: 20px auto;
+        text-align: center;
+
+        font: {
+            size: 20px;
+            family: Verdana, Tahoma, sans-serif;
+        }
+
+        padding: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    &__btn {
+        background-image: linear-gradient(to top, #ffa3e5 0%, #94b6f0 100%);
+    }
+    &__screen {
+        border: 1px solid #94b6f0;
+    }
+    
+    
+}

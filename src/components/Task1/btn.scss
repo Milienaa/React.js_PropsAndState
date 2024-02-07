@@ -1,0 +1,13 @@
+.btn {
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    font: {
+        size: 20px;
+        family: Verdana, Tahoma, sans-serif;
+    }
+    padding: 20px;
+    background-image: linear-gradient(to top, #ffa3e5 0%, #94b6f0 100%);
+    border-radius: 5px;
+    cursor: pointer;
+}
